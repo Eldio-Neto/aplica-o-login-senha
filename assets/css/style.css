@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background:  linear-gradient( 45deg, rgb(46, 46, 189), rgb(6, 6, 82) )
+}
+.container{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.container .content-form{
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    align-items: center;
+    background-color: white;
+    color: rgb(94, 94, 94);
+}
+.container .content-form .w100{
+    margin-top: 3px;
+    width: 100%;      
+}
+#cbox{
+    margin-top: 3px;
+}
+.container .content-form button{
+    cursor: pointer;
+}
+.container .content-form p{
+    text-align: center;
+    color: blue;
+}
+.container .content-form p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#cadastro{
+    display: none;
+}
+.cad h3{
+    text-align: center;
+    margin: 10px 0px;
+    color: black;
+}
+#users-title{
+    width: 850px;   
+    display: none;
+    color: white;
+}
+#users-title h1{    
+    text-align: center;
+    margin-bottom: 15px;
+}    
+
+
+#list ul{
+    list-style: none;
+    width: 100%;
+}
+#list ul li{
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    justify-content: space-between;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+#voltar{
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;      
+    
+}
+
+
+
+
+    
+
+

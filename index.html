@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+
+
+    <div class="container" id="login">
+        <div class="content-form">
+            <form>
+                <label for="">Nome de usuario: 
+                    <input type="email" name="usuario" id="usuario" autocomplete="off" class="w100" maxlength="8">
+                </label>
+                
+                <label for="senha">Senha:
+                    <input type="password" name="senha" id="senha" class="w100" maxlength="8">
+                </label>
+                <label for="cbox">
+                    <input type="checkbox" id="cbox">
+                    Manter-me conectado</label>
+            </form>
+            <button id="entrar" class="w100">Entrar</button>
+            <p id="cadastre-se">Ainda não tem conta? cadastre-se</p>
+        </div>
+    </div>
+
+    <div class="container" id="cadastro">
+        
+        <div class="content-form cad">
+            <h3>Cadastre-se gratuitamente</h3>            
+            <form>
+                <label> Nome de usuario:
+                    <input type="email" name="usuario" id="usuarioC" autocomplete="off" class="w100" maxlength="8">
+                </label>
+                <label> Senha:
+                    <input type="password" name="senha" id="senhaC" class="w100" maxlength="8">
+                </label>
+            </form>
+            <button id="cadastrar" class="w100">Cadastrar</button>
+        </div>        
+    </div> 
+
+    <div id="users-title">
+        <h1>Lista de usuarios</h1>
+        <div id="list">
+
+
+        </div>
+        <button id="voltar">Voltar</button>
+    </div>
+
+
+
+    <script src="./assets/js/scriptCadastro.js"></script>
+</body>
+
+</html>
